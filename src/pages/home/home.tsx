@@ -1,6 +1,6 @@
 import React from 'react'
 import { PageWrapper } from './home.styles'
-import { Header, GifViewer } from '../../components'
+import { Header, GifViewer, Button } from '../../components'
 import { useGif } from '../../data/hooks/useGif'
 
 export const HomePage = () => {
@@ -10,7 +10,8 @@ export const HomePage = () => {
 	return (
 		<PageWrapper>
 			<Header>React Telly</Header>
-			<GifViewer />
+			<GifViewer gifUrl={gif?.data.images.downsized_medium.url} altText={gif?.data.title} />
+			<Button title={'Change the channel'} onClick={() => fetchNewGif()} />
 		</PageWrapper>
 	)
 }
