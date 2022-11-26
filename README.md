@@ -1,7 +1,7 @@
 # React Telly Demo
 [React Telly](https://github.com/MollyJeanB/react-telly) is a friendly little gif television to help you learn how to use, modify, and build components with React + TypeScript.
 
-This project displays demos for the finished product of each lesson
+This project displays demos for the finished product of lessons 1 & 2.
 
 # Getting Started 
 
